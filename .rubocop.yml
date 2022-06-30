@@ -1,0 +1,15 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
